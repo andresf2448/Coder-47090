@@ -89,13 +89,13 @@ while(condicion){
 //   console.log("hola entramos");
 // }
 
-let usuario = prompt("Ingrese el usuario");
+// let usuario = prompt("Ingrese el usuario");
 
-while (usuario != "pepito") {
-  alert("Usuario incorrecto");
+// while (usuario != "pepito") {
+//   alert("Usuario incorrecto");
 
-  usuario = prompt("Ingrese el usuario");
-}
+//   usuario = prompt("Ingrese el usuario");
+// }
 
 // alert("Bienvenido");
 
