@@ -82,24 +82,39 @@
 //   lista.append(li);
 // });
 
-const mostrarProducto = (producto) => {
-  let div = document.createElement("div");
-  div.innerHTML = `
-    <h2>Id: ${producto.id}</h2>
-    <p>Nombre: ${producto.nombre}</p>
-    <b>$${producto.precio}</b>
-    <hr />
-  `;
-  document.body.append(div);
-};
+// const mostrarProducto = (producto) => {
+//   let div = document.createElement("div");
+//   div.innerHTML = `
+//     <h2>Id: ${producto.id}</h2>
+//     <p>Nombre: ${producto.nombre}</p>
+//     <b>$${producto.precio}</b>
+//     <hr />
+//   `;
+//   document.body.append(div);
+// };
 
-const productos = [
-  { id: 1, nombre: "camisa", precio: 1000 },
-  { id: 2, nombre: "gorra", precio: 1000 },
-  { id: 3, nombre: "zapato", precio: 1000 },
-  { id: 4, nombre: "media", precio: 1000 },
-];
+// const productos = [
+//   { id: 1, nombre: "camisa", precio: 1000 },
+//   { id: 2, nombre: "gorra", precio: 1000 },
+//   { id: 3, nombre: "zapato", precio: 1000 },
+//   { id: 4, nombre: "media", precio: 1000 },
+// ];
 
-productos.forEach((producto) => {
-  mostrarProducto(producto);
-});
+// productos.forEach((producto) => {
+//   mostrarProducto(producto);
+// });
+
+// let cabanas = [
+//   { nombre: "cabana1", disponibilidad: ["enero 5", "febrero 20"] },
+//   { nombre: "cabana2", disponibilidad: ["enero 5", "marzo 20"] },
+// ];
+
+// let nombre = prompt("Ingrese la cabaña que quieres solicitar disponibilidad");
+
+// let disponiblidad = cabanas.find(
+//   (item) => item.nombre === nombre
+// ).disponibilidad;
+
+// disponiblidad.forEach((item) => {
+//   alert(item);
+// });
