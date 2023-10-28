@@ -197,7 +197,7 @@ valor1 || valor2 si valor1 es true entonces retorna valor1, en caso contrario re
 //   edad: 45,
 // });
 
-const nombres = ["camila", "pepito", "andres", "juan"];
-const [, , c] = nombres;
+// const nombres = ["camila", "pepito", "andres", "juan"];
+// const [, , c] = nombres;
 
-console.log(c);
+// console.log(c);
