@@ -157,10 +157,10 @@ let boton = document.getElementById("boton");
 // const resta = now.minus({ month: 2, days: 10 });
 // console.log(resta.toLocaleString(DateTime.DATETIME_SHORT));
 
-const DateTime = luxon.DateTime;
-const Interval = luxon.Interval;
+// const DateTime = luxon.DateTime;
+// const Interval = luxon.Interval;
 
-const now = DateTime.now();
+// const now = DateTime.now();
 // console.log(now.toString());
 // const navidad = DateTime.local(2023, 12, 24);
 // const i = Interval.fromDateTimes(now, navidad);
