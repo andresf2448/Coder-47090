@@ -65,7 +65,7 @@ const listado = document.getElementById("listado");
 const traerPublicaciones = async () => {
   const response = await fetch("https://jsonplaceholder.typicode.com/posts");
   const data = await response.json();
-
+console.log(data);
   data.forEach((publicacion) => {
     const li = document.createElement("li");
     li.innerHTML = `
